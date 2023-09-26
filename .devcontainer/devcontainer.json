@@ -8,7 +8,7 @@
     "ghcr.io/eitsupi/devcontainer-features/duckdb-cli:1": {},
     "ghcr.io/eitsupi/devcontainer-features/go-task:1": {}
   },
-  // Use 'postCreateCommand' to run commands after the container is created.
+  // Use 'postCreateCommand' to run commands after the container is created. sample
   "postCreateCommand": "task deps",
   "remoteEnv": {
     "DATABASE": "duckdb",
