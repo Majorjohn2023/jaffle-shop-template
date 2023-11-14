@@ -5,7 +5,9 @@
 This is a template for creating a fully functional dbt project for teaching, learning, writing, demoing, or any other scenarios where you need a basic project with a synthesized jaffle shop business. We recommend beginners use the following steps to open this project right here on GitHub in a Codespace. If you're a little more experienced with devcontainers and want to go faster 🏎️, you can use the Gitpod link above for a quicker startup and deeper feature set.
 6th line
 ## How to use
-
+take it
+easy
+urvashi
 ### 1. Click the big green 'Use this template' button and 'Create a new repository'.
 
 ![Click use template](.github/static/use-template.gif)
