@@ -1,6 +1,6 @@
 {{
     config(
-        materialized='table'
+        materialized='view'
     )
 }}
 
@@ -21,7 +21,7 @@ orders_mart as (
 order_summary as (
 
     select
-        customer_id,
+        customer,
 
         count(*) as count_lifetime_orders,
         count(*) > 1 as is_repeat_buyer,
@@ -54,7 +54,7 @@ joined as (
     from customers
 
     left join order_summary
-        on customers.customer_id = order_summary.customer_id
+        on customers.ID = order_summary.customer
 
 )
 
