@@ -6,4 +6,5 @@ logs/
 *.duckdb.wal
 reports/sources/*.csv
 .meltano
-.DS_Store test1
+.DS_Store 
+test1
