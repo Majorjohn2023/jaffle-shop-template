@@ -1,0 +1,2 @@
+-- comments
+select 1;
